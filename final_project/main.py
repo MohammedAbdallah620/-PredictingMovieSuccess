@@ -1,9 +1,9 @@
 from DataCleaner import *
 from classifcation import*
 from HandelMissingValues import*
-credits_file="tmdb_5000_credits_test.csv"
-movies_reg="tmdb_5000_movies_testing_regression.xlsx"
-movies_class="tmdb_5000_movies_testing_classification.xlsx"
+credits_file="samples_tmdb_5000_credits_test.csv"
+movies_reg="samples_tmdb_5000_movies_testing_regression.xlsx"
+movies_class="samples_tmdb_5000_movies_testing_classification.xlsx"
 #for classification
 
 train, test=runDataCleaner(movies_class,credits_file , 'c')
